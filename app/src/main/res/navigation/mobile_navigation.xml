@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_followed"
+    app:startDestination="@id/nav_followed">
+
+    <fragment
+        android:id="@+id/nav_followed"
+        android:name="com.example.hippotoon.followed.FollowedFragment"
+        android:label="followed_fragment"
+        tools:layout="@layout/followed_fragment" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.hippotoon.history.HistoryFragment"
+        android:label="history_fragment"
+        tools:layout="@layout/history_fragment" />
+    <fragment
+        android:id="@+id/nav_myChannel"
+        android:name="com.example.hippotoon.mychannel.MyChannelFragment"
+        android:label="my_channel_fragment"
+        tools:layout="@layout/my_channel_fragment" />
+</navigation>
