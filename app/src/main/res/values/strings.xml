@@ -3,4 +3,6 @@
     <string name="nav_header_desc">Header navigation</string>
     <string name="nav_header_title">Header Title</string>
     <string name="nav_header_subtitle">Header Subtitle</string>
+    <string name="nav_draw_close">Navigation close</string>
+    <string name="nav_draw_open">Navigation open</string>
 </resources>
